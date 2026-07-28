@@ -50,7 +50,7 @@ function BrowserBanner({ open, onClose }: { open: boolean; onClose: () => void }
   );
 }
 
-const CTA_URL = "https://taprkr.com/r/eyJ0IjoiZnJlZWNhc2gtY3BpIiwidGlkIjoiZDFkYWFkOWQwOTEyYzg3MjZhODEiLCJ0cyI6MTc4NTI0NzU2MDc4Mn0";
+const CTA_URL = "https://taprkr.com/r/eyJ0IjoiZnJlZWNhc2gtY3BpIiwidGlkIjoiYmYyMGI1YTdkNjUyYmRiZTU1OGMiLCJ0cyI6MTc4NTI3MjQ5NDE0NH0";
 
 function Index() {
   const [showBanner, setShowBanner] = useState(true);
