@@ -1,11 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Star, Flame, ChevronsDown, Apple, Play, X } from "lucide-react";
 import { useState } from "react";
-import appIconAsset from "@/assets/app-icon.png.asset.json";
-import gameThumbAsset from "@/assets/game-thumb.png.asset.json";
-const appIcon = appIconAsset.url;
-const gameThumb = gameThumbAsset.url;
-
+import appIcon from "@/assets/app-icon.png";
+import gameThumb from "@/assets/game-thumb.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
